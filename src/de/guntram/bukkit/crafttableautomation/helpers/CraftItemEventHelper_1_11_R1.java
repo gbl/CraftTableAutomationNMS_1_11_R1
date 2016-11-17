@@ -9,15 +9,15 @@ import java.lang.reflect.Field;
 import java.util.Collection;
 import java.util.Map;
 import java.util.logging.Level;
-import net.minecraft.server.v1_10_R1.BlockPosition;
-import net.minecraft.server.v1_10_R1.ContainerWorkbench;
-import net.minecraft.server.v1_10_R1.World;
+import net.minecraft.server.v1_11_R1.BlockPosition;
+import net.minecraft.server.v1_11_R1.ContainerWorkbench;
+import net.minecraft.server.v1_11_R1.World;
 import static org.bukkit.Bukkit.getLogger;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v1_10_R1.entity.CraftPlayer;
-import org.bukkit.craftbukkit.v1_10_R1.inventory.CraftInventoryView;
-import org.bukkit.craftbukkit.v1_10_R1.inventory.CraftShapedRecipe;
-import org.bukkit.craftbukkit.v1_10_R1.inventory.CraftShapelessRecipe;
+import org.bukkit.craftbukkit.v1_11_R1.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_11_R1.inventory.CraftInventoryView;
+import org.bukkit.craftbukkit.v1_11_R1.inventory.CraftShapedRecipe;
+import org.bukkit.craftbukkit.v1_11_R1.inventory.CraftShapelessRecipe;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.InventoryView;
@@ -28,7 +28,7 @@ import org.bukkit.inventory.Recipe;
  *
  * @author gbl
  */
-public class CraftItemEventHelper_1_10_R1 implements CraftItemEventHelper {
+public class CraftItemEventHelper_1_11_R1 implements CraftItemEventHelper {
 
     /**
      *
